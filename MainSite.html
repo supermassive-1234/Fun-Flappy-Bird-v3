@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Site</title>
+    <link rel="stylesheet" href="jeb.css">
+    <script src="https://kit.fontawesome.com/db30c2a00f.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+<header style="position: sticky;background-color: chartreuse;position: absolute;top: 0; font-family: 'Kanit';font-size: 40px;font-weight: 600;
+display: inline;justify-content: center; align-items: center; width: 100%; text-align: center;">🐦Fun Flappy Bird Game</header>
+
+<a href="hex.html"><button style="  padding: 10px;
+    box-shadow: 5px 10px 18px #bd5c0c;
+    position: absolute;top: 70px;left: 340px; font-size: 40px;" id="btn1" >🐦GO To Game</button></a>
+
+
+
+
+
+
+
+<footer>
+    <div class="waves">
+        <div class="wave"></div>
+        <div class="wave2"></div>
+        <div class="wave3"></div>
+        <div class="wave4"></div>       
+    </div>
+<ul class="social_icons">
+    <li><a href="#"><i class="fab fa-facebook" id="fb"></i></a></li>
+    <li><a href="#"><i class="fab fa-instagram" id="ins"></i></a></li>
+    <li><a href="#"><i class="fab fa-whatsapp" id="wap"></i></a></li>
+    <li><a href="#"><i class="fab fa-youtube" id="yt"></i></a></li>
+</ul>
+<ul class="menu">
+    <li><a href="#"><span>Home</span></a></li>
+    <li><a href="#"><span>About</span></a></li>
+    <li><a href="#"><span>Play</span></a></li>
+    <li><a href="#"><span>Instructions</span></a></li>
+    <li><a href="dc.html"><span>Developer's Contacts</span></a></li>
+</ul>
+<p>&COPY;2023 Fun Flappy Bird&VerticalSeparator;All Rights Reserved.</p>
+</footer>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+ 
+   function name(){
+        var btn=document.getElementById("btn");
+        btn.onclick=function(){
+            swal({
+                title:"Closing!",
+                text:"Please click the cross sign in menu bar",
+                icon:"warning",
+                buttons:true,
+                dangerMode:true,
+            })
+        }
+    }
+    swal({
+        title:"Attention Please!",
+        text:"Some functions are being edited.And this game is only available for laps and computers.So,we are sorry for the difficulties which you will face.",
+       icon:"warning",
+    })
+</script>
+</body>
+</html>
